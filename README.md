@@ -2,6 +2,14 @@
 
 ReactJS authentication demo using localStorage. Mobile-first responsive design.
 
+## 🚀 Live Demo
+
+**[PopX Authentication App Live](https://popxauthenticationreactjs-oat0f1egl-dsawithsatyas-projects.vercel.app/)**
+
+Deployed on Vercel. Test the app live with full authentication, registration, and account management.
+
+## 🛠️ Local Development
+
 Install and run:
 
 ```bash
