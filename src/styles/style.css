@@ -1,0 +1,72 @@
+/* Mobile-first styles for PopX Authentication App */
+html,body,#root{height:100%;}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #eef9f8 0%, #f7fbff 100%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.card{
+  width:100%;
+  max-width:400px;
+  background:#fff;
+  border-radius:12px;
+  padding:22px;
+  box-shadow:0 10px 30px rgba(28,27,31,0.06);
+}
+
+.title{font-size:22px;margin:0 0 6px 0;color:#111;font-weight:700}
+.subtitle{font-size:14px;margin:0;color:#666}
+
+.input{
+  width:90%;
+  padding:12px 14px;
+  border-radius:10px;
+  border:1px solid #e6e9ef;
+  margin-top:12px;
+  font-size:14px;
+  outline:none;
+}
+.input:focus{box-shadow:0 0 0 3px rgba(99,66,255,0.08);border-color:rgba(99,66,255,0.6)}
+
+.button{
+  width:100%;
+  padding:12px 14px;
+  margin-top:12px;
+  border-radius:12px;
+  border:none;
+  color:#fff;
+  background:linear-gradient(90deg,#7b4dff 0%, #5c2bff 100%);
+  font-weight:700;
+  cursor:pointer;
+  box-shadow: 0 6px 18px rgba(92,43,255,0.14);
+}
+.button:active{transform:translateY(1px)}
+
+.button-secondary{
+  background:transparent;
+  color:#5c2bff;
+  border:1px solid rgba(92,43,255,0.12);
+}
+
+.radio-group{display:flex;align-items:center;justify-content:space-between;margin-top:12px}
+.radio-group label{font-size:14px;color:#444}
+
+.profile-card{padding-top:28px;padding-bottom:20px}
+.avatar{width:84px;height:84px;border-radius:50%;background:linear-gradient(90deg,#e9dfff,#d6c7ff);display:flex;align-items:center;justify-content:center;font-size:32px;color:#5830ff;margin-bottom:12px}
+
+.error{margin-top:12px;color:#b00020;background:#fff1f2;padding:8px;border-radius:8px;border:1px solid #ffd6db}
+
+@media(min-width:700px){
+  .container{padding:40px}
+}
